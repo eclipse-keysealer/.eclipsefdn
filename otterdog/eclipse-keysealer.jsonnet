@@ -17,6 +17,7 @@ orgs.newOrg('technology.keysealer', 'eclipse-keysealer') {
       dependabot_security_updates_enabled: true,
       description: "gRPC service that leverages a remote or local HSM/TPM to encrypt Kubernetes data at-rest with KMS v2.",
       homepage: "https://github.com/eclipse-keysealer/k8s-kms-plugin",
+      private_vulnerability_reporting_enabled: true,
       secret_scanning: "disabled",
       secret_scanning_push_protection: "disabled",
       topics+: [
